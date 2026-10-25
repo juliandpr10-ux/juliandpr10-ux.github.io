@@ -77,7 +77,7 @@ Las cifras grandes están así: `<dt>escenarios registrados</dt><dd>377</dd>`.
 
 ---
 
-## Cómo activar la hoja de vida y LinkedIn
+## Cómo activar la hoja de vida, LinkedIn y el proyecto oculto
 
 Están escritos en `index.html` pero "dormidos" dentro de comentarios (`<!-- ... -->`),
 que el navegador no muestra.
@@ -94,6 +94,11 @@ que el navegador no muestra.
 3. Borra la línea que empieza con `<!-- LINKEDIN` y la línea `FIN LINKEDIN -->`.
 4. Abre `tests/test_pagina.py`, busca `DOMINIOS_PERMITIDOS` y agrega `"www.linkedin.com"` a la lista;
    si no, la prueba avisará de un enlace no aprobado.
+
+**Exposición sísmica de una cartera** (grupo "Modelación y análisis de riesgo")
+Está oculto hasta que exista la demo. Para mostrarlo:
+1. En `index.html` busca `MODELACIÓN`.
+2. Borra la línea que empieza con `<!-- MODELACIÓN` y la línea `FIN MODELACIÓN -->`.
 
 ---
 
