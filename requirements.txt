@@ -1,0 +1,11 @@
+# La página no usa librerías de Python. Estas son para el entorno del proyecto (.venv):
+# las usan tools/generar_relieve.py (fondo de la portada) y las pruebas (pytest).
+# pip-audit revisa aquí si tienen fallas de seguridad conocidas.
+numpy==2.4.5
+scipy==1.17.1
+rasterio==1.5.0
+scikit-image==0.26.0
+shapely==2.1.2
+pyproj==3.7.2
+requests==2.34.2
+pytest==9.1.1

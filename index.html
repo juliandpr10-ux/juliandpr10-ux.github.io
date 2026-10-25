@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <title>Julián David Patiño Ramírez, geólogo MSc, riesgo y GIS</title>
+  <meta name="description" content="Portafolio de Julián David Patiño Ramírez, geólogo MSc en Medellín. Más de cinco años en gestión del riesgo de desastres en el Valle de Aburrá, con herramientas en ArcGIS, Azure y Google Workspace.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:url" content="https://juliandpr10-ux.github.io/">
+  <meta property="og:title" content="Julián David Patiño Ramírez, geólogo MSc, riesgo y GIS">
+  <meta property="og:description" content="377 escenarios de riesgo, 1.346 visitas técnicas y 9 municipios en un solo sistema.">
+  <meta property="og:image" content="https://juliandpr10-ux.github.io/img/escenarios-mapa.webp">
+  <meta property="og:image:width" content="1114">
+  <meta property="og:image:height" content="613">
+  <meta property="og:image:alt" content="Escenarios críticos del Valle de Aburrá por tipo de evento, ArcGIS">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <!-- Fondo oscuro con relieve y vías (img/relieve-valle.svg) detrás del encabezado y la portada.
+       Las secciones de abajo tienen fondo propio y lo tapan. -->
+  <div class="fondo-relieve">
+
+  <!-- ============ ENCABEZADO ============ -->
+  <header class="encabezado">
+    <div class="contenedor">
+      <a class="encabezado__nombre" href="#inicio">Julián David Patiño Ramírez</a>
+      <nav class="navegacion" aria-label="Principal">
+        <ul>
+          <li><a href="#destacado">Proyectos</a></li>
+          <li><a href="#como-trabajo">Cómo trabajo</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ============ PORTADA ============ -->
+    <section id="inicio" class="portada seccion">
+      <div class="contenedor">
+        <div class="portada__texto">
+          <p class="portada__antetitulo">Geólogo, Maestría en Procesos Urbanos y Ambientales (EAFIT), Medellín</p>
+          <h1>377 escenarios de riesgo, 1.346 visitas técnicas y 9 municipios en un solo sistema.</h1>
+          <p class="portada__intro">Organizo datos de riesgo para decidir. Más de cinco años en gestión del riesgo de desastres en el Valle de Aburrá, con herramientas en ArcGIS, Azure y Google Workspace.</p>
+          <div class="portada__acciones">
+            <a class="boton" href="#destacado">Ver proyectos</a>
+            <!-- HOJA DE VIDA: cuando exista cv/Julian_Patino_hoja_de_vida.pdf, borra esta línea y la de abajo que dice FIN.
+            <a class="enlace-secundario" href="cv/Julian_Patino_hoja_de_vida.pdf">Descargar hoja de vida</a>
+            FIN HOJA DE VIDA -->
+          </div>
+        </div>
+
+        <figure class="figura">
+          <img src="img/escenarios-mapa.webp" width="1114" height="613" fetchpriority="high"
+               alt="Mapa satelital del Valle de Aburrá con los escenarios críticos marcados como puntos de colores según el tipo de evento, con su leyenda.">
+          <figcaption>Escenarios críticos del Valle de Aburrá por tipo de evento, ArcGIS</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ PROYECTO DESTACADO 1 ============ -->
+    <section id="destacado" class="seccion" aria-labelledby="titulo-escenarios">
+      <div class="contenedor destacado">
+        <div class="destacado__cabecera">
+          <p class="rotulo">Proyecto destacado</p>
+          <h2 id="titulo-escenarios">Escenarios críticos del Valle de Aburrá</h2>
+          <ul class="etiquetas">
+            <li class="etiqueta etiqueta--verde">En producción</li>
+            <li class="etiqueta etiqueta--plataforma">ArcGIS Online, Survey123 Connect, Field Maps, Experience Builder</li>
+          </ul>
+        </div>
+
+        <dl class="cifras">
+          <div class="cifra"><dt>escenarios registrados</dt><dd>377</dd></div>
+          <div class="cifra"><dt>visitas técnicas consolidadas</dt><dd>1.346</dd></div>
+          <div class="cifra"><dt>bases de Excel unidas sin perder registros</dt><dd>11</dd></div>
+          <div class="cifra"><dt>municipios, seguimiento desde 2017</dt><dd>9</dd></div>
+        </dl>
+
+        <figure class="figura">
+          <img src="img/escenarios-inicio.webp" width="1600" height="736" loading="lazy"
+               alt="Página de inicio del tablero Escenarios críticos: indicadores de escenarios registrados y activos, mapa del Valle de Aburrá y gráficos por tipo de evento y por origen.">
+        </figure>
+
+        <div class="bloques">
+          <div class="bloque">
+            <h3>El reto</h3>
+            <p>Nueve años de seguimiento repartidos en archivos de Excel anuales, sin una vista común de cómo evoluciona cada sitio.</p>
+          </div>
+          <div class="bloque">
+            <h3>Lo que construí</h3>
+            <p>Una sola capa con todo el histórico, asociando sitios a 50 m cuando las coordenadas no coincidían; formularios de campo en Survey123 Connect y Field Maps para llegar a cada punto.</p>
+          </div>
+          <div class="bloque">
+            <h3>Cómo se califica</h3>
+            <p>Amenaza (1 a 4) por impacto (1 a 4) con la matriz de valoración del riesgo del AMVA: cuatro niveles, de bajo a alto.</p>
+          </div>
+          <div class="bloque">
+            <h3>Resultado</h3>
+            <p>Un tablero en Experience Builder con seis vistas que se actualiza con cada visita enviada desde campo.</p>
+          </div>
+        </div>
+
+        <figure class="figura">
+          <img src="img/escenarios-valle.webp" width="1600" height="734" loading="lazy"
+               alt="Vista Valle de Aburrá del tablero: filtros por periodo, tipo de evento y estado, indicadores del periodo, visitas por municipio y nivel de riesgo, mapa y visitas por año.">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ PROYECTO DESTACADO 2 ============ -->
+    <section id="nino" class="seccion seccion--borde" aria-labelledby="titulo-nino">
+      <div class="contenedor destacado">
+        <div class="destacado__cabecera">
+          <p class="rotulo">Proyecto destacado</p>
+          <h2 id="titulo-nino">Seguimiento a la respuesta frente al fenómeno de El Niño 2026</h2>
+          <ul class="etiquetas">
+            <li class="etiqueta etiqueta--verde">En producción</li>
+            <li class="etiqueta etiqueta--plataforma">Azure App Service</li>
+            <li class="etiqueta etiqueta--plataforma">Área Metropolitana del Valle de Aburrá</li>
+          </ul>
+        </div>
+
+        <dl class="cifras">
+          <div class="cifra"><dt>incendios reportados por bomberos</dt><dd>282</dd></div>
+          <div class="cifra"><dt>columnas de humo detectadas</dt><dd>161</dd></div>
+          <div class="cifra"><dt>días de seguimiento, abril a octubre de 2026</dt><dd>191</dd></div>
+          <div class="cifra"><dt>actualización automática desde varios servicios</dt><dd>Diaria</dd></div>
+        </dl>
+
+        <figure class="figura">
+          <img src="img/nino-indicadores.webp" width="1470" height="918" loading="lazy"
+               alt="Tablero de seguimiento a El Niño 2026: línea de tiempo de reportes por mes e indicadores del periodo, como incendios reportados por bomberos y columnas de humo detectadas.">
+        </figure>
+
+        <div class="bloques">
+          <div class="bloque">
+            <h3>El reto</h3>
+            <p>Seguir la respuesta institucional a la Circular 001 de 2026 durante la temporada de menos lluvias.</p>
+          </div>
+          <div class="bloque">
+            <h3>Lo que construí</h3>
+            <p>Un tablero con indicadores, condición actual (FWI, IRH, días secos), mapa con capas y plan de acción, actualizado automáticamente cada día.</p>
+          </div>
+          <div class="bloque">
+            <h3>Por qué Azure</h3>
+            <p>Elegí la plataforma por seguridad: el público consulta y la edición queda restringida.</p>
+          </div>
+          <div class="bloque">
+            <h3>Resultado</h3>
+            <p>Lo consultan la dirección, la subdirección y el equipo de trabajo para decidir, y soporta el seguimiento que exigen los entes de control.</p>
+          </div>
+        </div>
+
+        <div class="par-imagenes par-imagenes--mismo-alto">
+          <figure class="figura">
+            <img src="img/nino-condicion.webp" width="1414" height="503" loading="lazy"
+                 alt="Condición actual en el tablero: estaciones por categoría de FWI y de IRH, y mapa de días secos consecutivos por municipio.">
+          </figure>
+          <figure class="figura">
+            <img src="img/nino-mapa.webp" width="1410" height="693" loading="lazy"
+                 alt="Mapa metropolitano del tablero con la capa de susceptibilidad a incendios en niveles bajo, medio y alto, y el panel de capas.">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MÁS PROYECTOS ============ -->
+    <section id="proyectos" class="mas-proyectos seccion" aria-labelledby="titulo-mas">
+      <div class="contenedor">
+        <h2 id="titulo-mas">Más proyectos</h2>
+
+        <!-- Grupo: Tableros y aplicaciones web -->
+        <div class="grupo">
+          <h3>Tableros y aplicaciones web</h3>
+          <div class="tarjetas">
+
+            <article class="tarjeta tarjeta--ancha">
+              <ul class="etiquetas">
+                <li class="etiqueta etiqueta--verde">Usado en emergencia</li>
+              </ul>
+              <h4>PMU sismo de Cali: dos herramientas en plena emergencia</h4>
+              <p>Un gestor para asignar zonas a las cuadrillas y seguir su avance día a día, y un tablero para filtrar las evaluaciones de daños en edificaciones por sistema estructural, época de construcción, estado y tipo de propiedad.</p>
+              <dl class="cifras">
+                <div class="cifra"><dt>días para construir el gestor de zonas</dt><dd>2</dd></div>
+                <div class="cifra"><dt>zonas gestionadas</dt><dd>103</dd></div>
+                <div class="cifra"><dt>inspecciones de edificaciones</dt><dd>954</dd></div>
+                <div class="cifra"><dt>ocupantes aproximados</dt><dd>116.579</dd></div>
+              </dl>
+              <p class="tecnologias">Google Apps Script, Sheets, Survey123, Leaflet</p>
+              <div class="par-imagenes">
+                <figure class="figura">
+                  <img src="img/cali-gestor.webp" width="1600" height="769" loading="lazy"
+                       alt="Gestor de zonas del PMU sismo Cali: mapa de Cali con las zonas de las cuadrillas y panel de avance general y diario.">
+                  <figcaption>Gestor de zonas y avance diario</figcaption>
+                </figure>
+                <figure class="figura">
+                  <img src="img/cali-ede.webp" width="1600" height="766" loading="lazy"
+                       alt="Tablero de evaluación de daños en edificaciones: filtros por sistema estructural, época de construcción y estado, mapa de inspecciones y estadísticas de habitabilidad.">
+                  <figcaption>Evaluación de daños en edificaciones con filtros</figcaption>
+                </figure>
+              </div>
+            </article>
+
+            <article class="tarjeta tarjeta--ancha tarjeta--dividida tarjeta--imagen-derecha">
+              <div class="tarjeta__texto">
+                <ul class="etiquetas">
+                  <li class="etiqueta etiqueta--verde">En uso</li>
+                </ul>
+                <h4>Plan Metropolitano de GRD</h4>
+                <p>Seguimiento a las 242 actividades del PMetrGRD 2019–2031, con edición protegida por inicio de sesión con Google.</p>
+                <p class="tecnologias">Web, Firebase</p>
+              </div>
+              <figure class="figura">
+                <img src="img/plan-metropolitano.webp" width="1600" height="781" loading="lazy"
+                     alt="Tablero de seguimiento del PMetrGRD sin sesión iniciada: totales de actividades, avance global del plan y avance por objetivo estratégico y por proceso.">
+              </figure>
+            </article>
+
+          </div>
+        </div>
+
+        <!-- Grupo: ArcGIS y automatización con Python -->
+        <div class="grupo">
+          <h3>ArcGIS y automatización con Python</h3>
+          <div class="tarjetas">
+
+            <article class="tarjeta tarjeta--ancha tarjeta--dividida">
+              <figure class="figura">
+                <img src="img/visitas-dashboard.webp" width="1600" height="766" loading="lazy"
+                     alt="Dashboard de visitas de inspección: visitas por mes, por tipo de evento, origen, suelo y nivel de riesgo, con mapa de puntos en el Valle de Aburrá.">
+              </figure>
+              <div class="tarjeta__texto">
+                <ul class="etiquetas">
+                  <li class="etiqueta etiqueta--verde">En producción</li>
+                  <li class="etiqueta etiqueta--plataforma">Público</li>
+                </ul>
+                <h4>Visitas de inspección</h4>
+                <dl class="cifras">
+                  <div class="cifra"><dt>visitas desde 2020</dt><dd>680</dd></div>
+                  <div class="cifra"><dt>personas impactadas</dt><dd>16.993</dd></div>
+                </dl>
+                <p>Dashboard rediseñado con formularios en Survey123 Connect y en línea para que los profesionales actualicen desde campo, e importación de informes en PDF con Python.</p>
+                <p class="tecnologias">ArcGIS Dashboards, Survey123, Experience Builder, Python</p>
+              </div>
+            </article>
+
+            <article class="tarjeta tarjeta--ancha tarjeta--dividida tarjeta--imagen-derecha">
+              <div class="tarjeta__texto">
+                <h4>Base de datos geotécnica de la microzonificación sísmica</h4>
+                <dl class="cifras cifras--tres-en-fila">
+                  <div class="cifra"><dt>sondeos, 1996–2016</dt><dd>198</dd></div>
+                  <div class="cifra"><dt>ensayos downhole (Vp, Vs)</dt><dd>775</dd></div>
+                  <div class="cifra"><dt>municipios y distrito</dt><dd>11</dd></div>
+                </dl>
+                <p>Consolidé en una sola base los ensayos de los estudios de microzonificación (SPT, límites de Atterberg, columnas estratigráficas, downhole) y construí el tablero con la zonificación geotécnica, isolíneas de aceleración, isoperiodos y susceptibilidad a licuación.</p>
+                <p class="tecnologias">ArcGIS Online, ArcGIS Dashboards</p>
+              </div>
+              <figure class="figura">
+                <img src="img/bd-geotecnica.webp" width="1600" height="773" loading="lazy"
+                     alt="Tablero de la base de datos geotécnica: indicadores de sondeos y ensayos, mapa de zonificación geotécnica con panel de capas y gráfico de sondeos por municipio.">
+              </figure>
+            </article>
+
+          </div>
+        </div>
+
+        <!-- Grupo: Modelación y análisis de riesgo -->
+        <div class="grupo">
+          <h3>Modelación y análisis de riesgo</h3>
+          <div class="tarjetas">
+
+            <article class="tarjeta tarjeta--punteada">
+              <ul class="etiquetas">
+                <li class="etiqueta etiqueta--ambar">En construcción</li>
+              </ul>
+              <h4>Exposición sísmica de una cartera</h4>
+              <p>Cúmulos y exposición a la amenaza por zona sobre una cartera ficticia de edificaciones, usando la microzonificación sísmica armonizada del Valle de Aburrá (2016).</p>
+              <p class="tecnologias">Python, microzonificación sísmica</p>
+            </article>
+
+          </div>
+        </div>
+
+        <p class="cierre">Puedo mostrar estas herramientas funcionando <a href="#contacto">en una conversación</a>.</p>
+      </div>
+    </section>
+
+    <!-- ============ CÓMO TRABAJO ============ -->
+    <section id="como-trabajo" class="como-trabajo seccion" aria-labelledby="titulo-como">
+      <div class="contenedor">
+        <h2 id="titulo-como">Cómo trabajo</h2>
+        <div class="principios">
+          <div class="principio">
+            <h3>Parto del problema en territorio</h3>
+            <p>Quién decide, con qué datos y en cuánto tiempo, sea una emergencia o un seguimiento institucional.</p>
+          </div>
+          <div class="principio">
+            <h3>Elijo la plataforma por el caso</h3>
+            <p>Azure, Google Workspace o ArcGIS según seguridad, quién lo usa y cómo se mantiene.</p>
+          </div>
+          <div class="principio">
+            <h3>Desarrollo con IA, revisado</h3>
+            <p>Dirijo el desarrollo con IA y lo someto a controles de calidad y seguridad antes de publicar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  </div>
+
+  <!-- ============ PIE / CONTACTO ============ -->
+  <footer id="contacto" class="pie seccion" aria-labelledby="titulo-contacto">
+    <div class="contenedor">
+      <h2 id="titulo-contacto">Hablemos</h2>
+      <a class="pie__correo" href="mailto:juliandpr10@gmail.com">juliandpr10@gmail.com</a>
+      <p>Medellín, Colombia</p>
+      <ul class="pie__enlaces">
+        <li><a href="https://github.com/juliandpr10-ux">GitHub</a></li>
+        <!-- LINKEDIN: cuando tengas el enlace, cambia la dirección y borra esta línea y la de FIN.
+        <li><a href="https://www.linkedin.com/in/TU-PERFIL">LinkedIn</a></li>
+        FIN LINKEDIN -->
+        <!-- HOJA DE VIDA: cuando exista el PDF, borra esta línea y la de FIN.
+        <li><a href="cv/Julian_Patino_hoja_de_vida.pdf">Hoja de vida (PDF)</a></li>
+        FIN HOJA DE VIDA -->
+      </ul>
+      <!-- Créditos del fondo de la portada: los exige la licencia de cada fuente. No borrar. -->
+      <div class="pie__creditos">
+        <p>Relieve: <span lang="en">produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved</span>. Los organismos a cargo del programa Copernicus, por ley o por delegación, no asumen responsabilidad alguna por el uso del Copernicus WorldDEM-30.</p>
+        <p>Vías: © <a href="https://www.openstreetmap.org/copyright">colaboradores de OpenStreetMap</a>.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

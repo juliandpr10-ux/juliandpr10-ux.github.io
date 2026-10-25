@@ -1,0 +1,39 @@
+# Secretos: NUNCA se suben
+.env
+.env.*
+!.env.example
+secrets/
+*-service-account*.json
+*firebase-adminsdk*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# JavaScript
+node_modules/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Reportes de claude-security (traen su propio .gitignore, esto es por si acaso)
+CLAUDE-SECURITY-*/
+
+# Imágenes originales sin optimizar (pesadas): se quedan solo en este equipo
+img/originales/
+
+# Documento de trabajo interno: no se publica (DISENO.md y README.md bastan)
+ESPECIFICACION.md
+
+# Datos crudos de relieve y vías (se regeneran con tools/generar_relieve.py)
+datos/
+
+# Archivos internos de Claude Code y copia de las instrucciones (no se publican)
+.claude/.cc-writes/
+.claude/settings.local.json
+PROMPT_CLAUDE_CODE.md

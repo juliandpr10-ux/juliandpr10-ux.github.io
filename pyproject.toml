@@ -1,0 +1,17 @@
+# Configuración de las herramientas de revisión.
+# El sitio es HTML y CSS; el único Python son las pruebas en tests/.
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+
+[tool.bandit]
+exclude_dirs = [".venv", "img"]
+# B101: en las pruebas se usa "assert" a propósito.
+skips = ["B101"]

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "deny": ["Read(./.env)", "Read(./.env.*)", "Read(./secrets/**)"],
+    "ask": ["Bash(git push *)"]
+  },
+  "sandbox": { "enabled": true },
+  "enabledPlugins": { "security-guidance@claude-plugins-official": true }
+}
